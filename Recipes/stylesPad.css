@@ -1,0 +1,22 @@
+body  {
+    background-color: aliceblue;
+}
+
+#title {
+    text-align: center;
+    color: purple;
+    font-style: arial;
+}
+
+#PT {
+    height: 550px;
+    width: 600px;
+    margin-top: 10px;
+   
+}
+
+.mainImage {
+    display: flex;
+    justify-content: center;
+    
+}

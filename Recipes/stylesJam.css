@@ -1,0 +1,16 @@
+body {
+    background: beige;
+}
+
+img {
+    height: 500px;
+    weight: 500px;
+}
+
+#title {
+    color: red;
+}
+
+.header {
+    text-align: center;
+}
