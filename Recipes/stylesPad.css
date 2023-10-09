@@ -1,4 +1,83 @@
-body  {
+body {
+    background-color: seashell;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+}
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#mainImage {
+    height: 500px;
+    width: 600px;
+}
+
+#mainTitle {
+    text-align: center;
+    color: black;
+    /* background-color: orange; */
+   
+}
+
+#title {
+    border: 3px solid darkgray;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.descriptionBody {
+    margin: 20px;
+}
+
+.main {
+    /* text-align: center; */
+    border: 5px solid navajowhite;
+    width: 700px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+li#ing {
+    list-style-type: none;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#steps {
+    list-style-type: decimal;
+    margin: 20px;
+}
+
+/* body  {
     background-color: aliceblue;
 }
 
@@ -25,6 +104,14 @@ li {
     list-style-type: none;
 }
 
+.description {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1500px;
+    background-color: antiquewhite;
+}
+
 .ingredients {
     border: 1px solid black;
     width: 500px;
@@ -37,4 +124,12 @@ li {
 
 input[type=checkbox]:checked + label.strikethrough{
     text-decoration: line-through;
-  }
+}
+
+.steps {
+    border: 1px solid black;
+    background-color: peachpuff;
+}
+.main {
+    display: flex;
+} */

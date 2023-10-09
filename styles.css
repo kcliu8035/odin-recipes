@@ -10,13 +10,12 @@ a {
     color: blue;
 }
 
-#title {
-    text-align: center;
-    font-size: 70px;
-}
+
 
 body {
     background-color: oldlace;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
 .food {
@@ -24,8 +23,6 @@ body {
     display: flex;
     gap: 3rem;
     justify-content: center;
-    
-  
 }
 
 img {
@@ -139,4 +136,53 @@ img {
 
 .tacosContent:hover > * {
     transform: translateY(0);
+}
+
+.mainPhoto {
+    border: 1px solid black;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainTitle {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 1px solid black;
+    width: 1280px;
+    height: 1000px;
+    background-color: black;
+    
+}
+
+.container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100vw;
+    
+}
+
+#title {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 150px;
+    color: salmon;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+   
+}
+
+#headerText {
+    color: black;
+    font-size: 100px;
+    background-color: white;
+
 }

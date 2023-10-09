@@ -1,5 +1,99 @@
 body {
-    background: beige;
+    background-color: white;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+}
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#mainImage {
+    height: 500px;
+    width: 750px;
+}
+
+#mainTitle {
+    text-align: center;
+    color: black;
+    /* background-color: orange; */
+   
+}
+
+#title {
+    border: 3px solid darkgray;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.descriptionBody {
+    margin: 20px;
+}
+
+.main {
+    /* text-align: center; */
+    border: 5px solid black;
+    width: 800px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+li#ing {
+    list-style-type: none;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#steps {
+    list-style-type: decimal;
+    margin: 20px;
+}
+
+#newman {
+    margin-top: 20px;
+}
+
+.jamFinish {
+    display: flex;  
+    justify-content: center;    
+}
+
+#jamFinish {
+    height: 300px;
+    width: 400px;
+}
+
+/* body {
+    background: oldlace;
+   
 }
 
 img {
@@ -14,3 +108,86 @@ img {
 .header {
     text-align: center;
 }
+
+.jamb1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    color: red;
+    list-style-type: none;
+}
+
+.description {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-top: 50px;
+    padding-left: 20px;
+    width: 2099px;   
+}
+
+.descriptionBody {
+    padding-left: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.ingredients {
+    border: 1px solid black;
+    width: 800px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.steps {
+    border: 1px solid black;
+    width: 1000px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    height: 700px;
+    flex: 1;
+}
+
+#steps {
+    list-style-type: decimal;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+
+
+
+
+input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    
+}
+
+#newman {
+    height: auto;
+    width: auto;
+    
+}
+
+#section {
+    font-family: 'Asap', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+ 
+} */
+
+/* .titleEncasing {
+    border: 1px solid black;
+    background-color: thistle;
+    width: 800px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

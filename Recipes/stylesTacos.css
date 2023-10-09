@@ -1,5 +1,10 @@
 body {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: gainsboro;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+ 
 }
 .header {
     text-align: center;
@@ -8,4 +13,51 @@ body {
 #mainImage {
     height: 500px;
     width: 600px;
+}
+
+#mainTitle {
+    text-align: center;
+    color: black;
+}
+
+#title {
+    border: 3px solid darkgray;
+    text-align: center;
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    /* text-align: center; */
+    border: 5px solid black;
+    width: 700px;
+    background-color: whitesmoke;
+    color: black;
+ 
+}
+
+li#ing {
+    list-style-type: none;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+}
+
+.nutrition {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.ingredients {
+    margin-bottom: 30px;
 }
